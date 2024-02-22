@@ -1,0 +1,75 @@
+/*% y px*/
+
+/* body {
+  height: 1200px;
+}
+
+.caja {
+  font-size: 35px;
+  width: 50%;
+  text-align: center;
+  height: 50%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border: 1px solid black;
+} */
+
+/*Uso de em*/
+
+/* .padre {
+  font-size: 10px;
+}
+
+.padre h1 {
+  font-size: 2em;
+}
+
+.padre2 {
+  font-size: 34px;
+}
+
+.caja {
+  font-size: 2em;
+  width: 13em;
+  text-align: center;
+  height: 13em;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+.caja h3 {
+  font-size: 5em;
+} */
+
+/*Uso de las rem*/
+
+html {
+  font-size: 10px;
+}
+
+.caja {
+  font-size: 2rem;
+  width: 25rem;
+  text-align: center;
+  height: 25rem;
+  margin: 0 auto;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media (max-width: 368px) {
+  body {
+    font-size: 8px;
+  }
+}
